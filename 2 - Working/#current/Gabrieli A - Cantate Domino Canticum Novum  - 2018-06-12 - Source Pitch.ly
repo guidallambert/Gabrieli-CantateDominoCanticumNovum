@@ -152,7 +152,6 @@ MidiPlaybackSound = "ocarina"
                        %\override LyricHyphen #'whiteout = ##t		% Might help with mensurstriche
 	}
 }
-% test
 \paper {
 	ragged-last-bottom = ##f
   	ragged-bottom = ##f
