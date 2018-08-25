@@ -147,12 +147,12 @@ StaveCNotes = {  % QCed against source
          d2 d2 e2 f2. f4 d2
          d'2 bes2 bes2 g2 a2 bes2 f2. f4 c'2 a4. \melisma bes8 c'2 \melismaEnd bes2
          f2. f4 g2 e1 d2
-         d'2 d'2 d'2 g2. g4 a1 d1 d2 g1 \ficta fis2 g2
+         d'2 d'2 d'2 g2. g4 a1 d1 d2 g1 \melisma \ficta fis2 \melismaEnd g2
          g2 d'1 d'2 d'1 c'2 d'2
          a2 a2 bes2 a2 g2 a\breve
     r2	g2 e2 e2 f2. f4 d2 d2. d4 d2 ees1 d2
         d1 g1 g2 a2. a4 d'2 d'2. d'4 d2 \[ f1 \melisma e1 \] \melismaEnd d2
-        fis2 g2 bes2 a1 g2 g2 f4 \melisma g4 a4 bes4 c'1 \melismaEnd c'2 a2 bes4 c'4 d'1 c'2
+        fis2 g2 bes2 a1 g2 g2 f4 \melisma g4 a4 bes4 c'1 \melismaEnd c'2 a2 bes4 \melisma c'4 d'1 \melismaEnd c'2
     r2	a2 a2 c'2 bes2 g2 c'1 d'1 c'2. \melisma d'4 \ficta ees'2 \melismaEnd bes2 c'1 f1
     R\longa
         bes2. bes4 f4 g4 d2 g4
@@ -262,7 +262,7 @@ StaveDNotes = {  % QCed against source
     d2 bes1. a2 g2 d2 a1. a2 d2 e2 f\breve g1   r2  d2 d'1. c'2
 
   % line 5
-    bes2 a2 c'2 b2 c'2 c'2 a1 g2  g2 bes1. a2 g2 f2 g2 g2 bes1 a2 g1 \ficta fis2 g1  r2
+    bes2 a2 c'2 b2 c'2 c'2 a1 g2  g2 bes1. a2 g2 f2 g2 g2 bes1 a2 g1 \melisma \ficta fis2 \melismaEnd g1  r2
     bes2 \ficta ees'1. d'2 c'2 bes2 c'2 c'2 c'2 c2 d1 d\maxima*1/8
 }
 StaveFNotes = {  }
@@ -355,16 +355,112 @@ StaveBLyrics = \lyricmode {   % QCed against source
 StaveCLyrics = \lyricmode {
 
 
+    Can -- ta -- te Do -- mi -- no,
+    Can -- ta -- te Do -- mi -- no can -- ti -- cum no -- vum,
+    can -- ti -- cum no -- vum,
+    Can -- ta -- te Do -- mi -- no om -- nis ter -- ra,
+    Can -- ta -- te Do -- mi -- no,
+    Can -- ta -- te Do -- mi -- no
+    et be -- ne -- di -- ci -- te no -- mi -- ni e -- ius,
+    et be -- ne -- di -- ci -- te no -- mi -- ni e -- ius.
+
+    An -- nun -- ti -- a -- te
+    de di -- e in di -- em,
+    An -- nun -- ti -- a -- te
+    de di -- e __ in di -- em,
+    sa -- lu -- ta -- re e -- ius,
+    sa -- lu -- ta -- re e -- ius,
+    sa -- lu -- ta -- re e -- ius,
+    sa -- lu -- ta -- re e -- ius,
+    sa -- lu -- ta -- re e -- ius.
+
+    % secunda pars
+    An -- nun -- ti -- a -- te in -- ter gen -- tes glo -- ri -- am e -- ius,
+    e -- ius,
+    An -- nun -- ti -- a -- te in -- ter gen -- tes glo -- ri -- am e -- ius.
+    In om -- ni -- bus po -- pu -- lis mi -- ra -- bi -- li -- a e -- ius,
+    mi -- ra -- bi -- li -- a e -- ius.
+    Quo -- ni -- am mag -- nus Do -- mi -- nus,
+    Quo -- ni -- am mag -- nus Do -- mi -- nus
+    Et lau -- da -- bi -- lis ni -- mis
+    Ter -- ri -- bi -- lis __ est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis,
+    Ter -- ri -- bi -- lis,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os.
 
 
 }
 StaveDLyrics = \lyricmode {
 
+    Can -- ta -- te Do -- mi -- no,
+    Can -- ta -- te Do -- mi -- no can -- ti -- cum no -- vum,
+    can -- ti -- cum no -- vum,
+    Can -- ta -- te Do -- mi -- no om -- nis ter -- ra,
+    Can -- ta -- te Do -- mi -- no,
+    Can -- ta -- te Do -- mi -- no
+    et be -- ne -- di -- ci -- te no -- mi -- ni e -- ius,
+    et be -- ne -- di -- ci -- te no -- mi -- ni e -- ius,
+
+    An -- nun -- ti -- a -- te de di -- e in di -- em,
+    An -- nun -- ti -- a -- te de di -- e in di -- em,
+    de di -- e in di -- em
+    sa -- lu -- ta -- re e -- ius,
+    sa -- lu -- ta -- re e -- ius,
+    sa -- lu -- ta -- re e -- ius,
+    sa -- lu -- ta -- re e -- ius. __
+
+    % secunda pars
+    An -- nun -- ti -- a -- te in -- ter gen -- tes glo -- ri -- am e -- ius,
+    glo -- ri -- am e -- ius,
+    An -- nun -- ti -- a -- te in -- ter gen -- tes glo -- ri -- am e -- ius.
+    In om -- ni -- bus po -- pu -- lis mi -- ra -- bi -- li -- a e -- ius,
+    mi -- ra -- bi -- li -- a e -- ius,
+    mi -- ra -- bi -- li -- a e -- ius.
+    Quo -- ni -- am mag -- nus Do -- mi -- nus,
+    Quo -- ni -- am mag -- nus Do -- mi -- nus
+    Et lau -- da -- bi -- lis ni -- mis
+    Ter -- ri -- bi -- lis,
+    Ter -- ri -- bi -- lis,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os.
 
 }
 StaveELyrics = \lyricmode {
 
+    Can -- ta -- te Do -- mi -- no,
+    Can -- ta -- te Do -- mi -- no can -- ti -- cum no -- vum,
+    Can -- ta -- te Do -- mi -- no om -- nis ter -- ra,
+    Can -- ta -- te Do -- mi -- no
+    et be -- ne -- di -- ci -- te,
+    et be -- ne -- di -- ci -- te no -- mi -- ni e -- ius,
 
+    An -- nun -- ti -- a -- te,
+    An -- nun -- ti -- a -- te
+    de di -- e in di -- em,
+    de di -- e in di -- em
+    sa -- lu -- ta -- re e -- ius,
+    sa -- lu -- ta -- re e -- ius,
+    sa -- lu -- ta -- re e -- ius.
+
+    % secunda pars
+    An -- nun -- ti -- a -- te in -- ter gen -- tes glo -- ri -- am e -- ius,
+    An -- nun -- ti -- a -- te in -- ter gen -- tes glo -- ri -- am e -- ius.
+    In om -- ni -- bus po -- pu -- lis mi -- ra -- bi -- li -- a e -- ius,
+    mi -- ra -- bi -- li -- a e -- ius.
+    Quo -- ni -- am mag -- nus Do -- mi -- nus
+    Et lau -- da -- bi -- lis ni -- mis
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os,
+    Ter -- ri -- bi -- lis est su -- per om -- nes de -- os.
 
 }
 StaveFLyrics = \lyricmode {
