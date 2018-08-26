@@ -3,9 +3,9 @@
 
 ### Lilypond ###
 ### *.pdf  #### this only applies in the working directory as source and final both legitimately contain pdfs
-*.ps
-*.midi
-*.mid
+###*.ps
+#*.midi
+#*.mid
 *.log
 *~
 
