@@ -1,5 +1,4 @@
 # Gabrieli-CantateDominoCanticumNovum
-Lilypond
 
 Lilypond source and rendered scores of Cantate Dominum canticum novum a 5 by Andrea Gabrieli, available here and on the [Choral Public Domain Library](https://www.cpdl.org/wiki/index.php/Cantate_Domino_canticum_novum_a_5_(Andrea_Gabrieli))
 
